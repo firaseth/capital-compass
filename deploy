@@ -1,0 +1,9 @@
+# Install gh-pages
+npm install --save-dev gh-pages
+
+# Add to package.json scripts:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+
+# Deploy
+npm run deploy
