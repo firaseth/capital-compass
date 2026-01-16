@@ -1,0 +1,18 @@
+git init
+git add .
+git commit -m "Initial commit: Capital Compass platform"
+git remote add origin https://github.com/YOUR-USERNAME/capital-compass.git
+git push -u origin main
+```
+
+### **Step 5: Deploy (Choose One)**
+- **Vercel** (Easiest): Connect GitHub repo, auto-deploys
+- **Netlify**: Drag & drop `dist` folder or connect repo
+- **GitHub Pages**: Run `npm run deploy`
+- **Cloudflare Pages**: Connect repo in dashboard
+
+---
+
+## 📋 **Your GitHub Repository Will Be:**
+```
+https://github.com/YOUR-USERNAME/capital-compass
